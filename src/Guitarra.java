@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Guitarra extends Instrumentos{
 
-public class Guitarra {
+    public Guitarra(String nombre) {
+        super(nombre);
+    }
+
+    @Override
+    public void tocar() {
+        System.out.println(nombre + ": Suena la guitarra.");
+    }
 }
